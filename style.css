@@ -11,7 +11,7 @@ header{
     color:blueviolet;
 }
 
-section{
+.chamada{
     background: rgb(171, 219, 244);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -24,4 +24,13 @@ section{
 }
 img{
     height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
